@@ -1,9 +1,10 @@
+/*Margin y padding son necesarios para que se vean las cajas de colores*/
+
 main {
   display: flex;
   flex-flow: column wrap;
   background-color: white;
   min-width: 250px;
-  margin: auto;
 }
 
 main div {
@@ -62,6 +63,10 @@ article div {
   background-color: #1664a4;
   padding: 0.1em;
   flex-basis: 33%;
+}
+
+#ultimoArticulo {
+  background-color: #6399bb;
 }
 
 aside {
