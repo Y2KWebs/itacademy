@@ -1,0 +1,85 @@
+.main {
+  display: flex;
+  border-style: solid;
+  border-width: 10px;
+  flex-flow: column wrap;
+  border-color: white;
+}
+
+header {
+  display: flex;
+  border-style: solid;
+  border-width: 10px;
+  flex-grow: 1;
+  border-color: teal;
+  flex-flow: column wrap;
+}
+#headerTop {
+  display: flex;
+  border-style: solid;
+  border-width: 10px;
+
+  border-color: thistle;
+}
+#subheader {
+  display: flex;
+  border-style: solid;
+  border-width: 10px;
+
+  border-color: violet;
+}
+
+#logo {
+  display: flex;
+  border-style: solid;
+  border-width: 10px;
+  flex-grow: 1;
+  border-color: turquoise;
+}
+
+#menu {
+  display: flex;
+  border-style: solid;
+  border-width: 10px;
+  flex-grow: 4;
+  border-color: turquoise;
+}
+
+#social {
+  display: flex;
+  border-style: solid;
+  border-width: 10px;
+  flex-grow: 1;
+  border-color: turquoise;
+}
+
+section {
+  display: flex;
+  border-style: solid;
+  border-width: 10px;
+  flex-grow: 1;
+  border-color: wheat;
+}
+
+article {
+  display: flex;
+  border-style: solid;
+  border-width: 10px;
+  flex-grow: 1;
+  border-color: yellow;
+}
+
+aside {
+  display: flex;
+  border-style: solid;
+  border-width: 10px;
+  flex-grow: 1;
+  border-color: blue;
+}
+footer {
+  display: flex;
+  border-style: solid;
+  border-width: 10px;
+  flex-grow: 1;
+  border-color: crimson;
+}
