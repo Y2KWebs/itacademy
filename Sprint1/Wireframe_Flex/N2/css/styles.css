@@ -1,0 +1,138 @@
+/*Margin y padding son necesarios para que se vean las cajas de colores*/
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+
+  min-width: 250px;
+}
+
+main div {
+  padding: 0.5em;
+  margin: 0.5em;
+  flex-grow: 1;
+}
+
+header {
+  padding: 0.5em;
+  margin: 0.5em;
+  display: flex;
+
+  flex-direction: column;
+  background-image: url(../images/fons_cap.jpg);
+
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#headerTop {
+  display: flex;
+  flex-direction: row;
+}
+#subheader {
+  width: auto;
+  background-color: #b8b8b823;
+}
+#subheader div {
+  color: #ff08007e;
+  align-items: center;
+  text-align: center;
+}
+
+#headerTop div {
+}
+
+#menu {
+  display: flex;
+  flex-grow: 4;
+  align-self: center;
+  color: grey;
+}
+
+#menu i {
+  margin-right: 3em;
+}
+
+#menu a {
+  margin-left: 0.5em;
+  color: grey;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+#logo img {
+  height: 5em;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+#social {
+  align-self: center;
+  color: grey;
+}
+
+section {
+  display: flex;
+  padding: 0.5em;
+  margin: 0.5em;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: rgb(0, 0, 0);
+}
+
+article {
+  display: flex;
+  padding: 0.5em;
+  margin: 0.5em;
+  flex-grow: 2;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #44465e;
+}
+
+article div {
+  background-color: #1664a4;
+  padding: 0.1em;
+  flex-basis: 33%;
+}
+
+#ultimoArticulo {
+  background-color: #6399bb;
+}
+
+aside {
+  display: flex;
+  padding: 0.5em;
+  margin: 0.5em;
+  flex-grow: 1;
+  flex-direction: column;
+  background-color: #f94c47;
+}
+
+aside div {
+  background-color: #ffe380;
+  line-height: 1em;
+  flex-grow: 0;
+}
+
+footer {
+  padding: 0.5em;
+  margin: 0.5em;
+  background-color: rgb(0, 0, 0);
+}
+
+footer div {
+  background-color: #e4a434;
+}
+
+/* Tablets y telefonos */
+@media only screen and (max-width: 768px) {
+  section {
+    flex-direction: column;
+
+    background-color: #fff734;
+  }
+}
